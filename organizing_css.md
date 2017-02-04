@@ -6,7 +6,7 @@ Understand Front-End Challenges
 
 ### Outcomes
 
-A plan for how to address front-end challenges 
+A plan for how to address front-end challenges
 
 ### Process
 
@@ -162,15 +162,62 @@ Another alternative.
 
 ## CSS Style Guide
 
+Even though we already have a basic style guide, I thought it would be beneficial to go over the basics to ensure we are all on the same page.
+
+Additionally, we can create a process moving forward that we can all follow.
+
+### What is a style guide?
+
+A style guide is a living document of code, which details all the various elements and coded modules of your site or application.
+
+It documents the visual language, such as header styles and color palettes, used to create the site
+
+### Why should we use a style guide?
+
+#### Faster development
+
+Anyone joining an ongoing project can refer to the guide for the exact styles to use.
+
+#### Standardize the CSS
+
+Designers and developers can quickly see if new designs deviate from established standards, and decide as a team if it’s worth expanding the codebase or if something already written is easily extended
+
+When you have no guide duplicated styles end up being written resulting in bloated CSS.
+
+#### Design consistency
+
+One place to reference the site’s components and ensure a cohesive look and feel throughout.
+
+### How do we start?
+
+#### Document the basics
+
+Start your guide with some of your site’s foundations.
+
+A foundational element may include the color palette, your grid layout system, or the basic type styles for headers and body text.
+
+Whatever you feel are the very basic elements to create a page.
+
+Create an HTML document with the markup, linking to the application CSS, so any CSS changes would be automatically reflected in the style guide.
+
+#### Add Patterns
+
+A pattern is any self-contained set of markup and styles to make some of your site’s basic objects, like a call-out box used repeatedly, buttons, or the way you lay out a list of links horizontally.
+
+Keep going through your site and add in patterns as you see them; you may use particular layouts over and over, or a media-object pattern, or a vertical list pattern.
+
+#### Document Interactivity
+
+If possible, add the bits of interactivity that your site uses, such as dropdowns, modals, or tooltips, which are small hovers with helpful text that gives the user more information.
+
+This way we are documenting the animations as well as the static versions of components.
+
 ### Reference
 
-<https://css-tricks.com/css-style-guides/>
+[SASS Website Styleguide](http://sass-lang.com/styleguide)
 
-<http://sass-lang.com/styleguide>
+[Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
+[More Examples](https://css-tricks.com/css-style-guides/)
 
-
-
-
-
-
+<http://styleguides.io>
